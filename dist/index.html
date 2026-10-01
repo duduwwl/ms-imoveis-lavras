@@ -31,11 +31,18 @@
   </header>
 
   <main id="conteudo">
-    <section class="hero" aria-label="Imóveis em Lavras">
-      <div class="hero-photo"><img src="assets/casa-fachada.jpg" alt="Fachada de casa contemporânea apresentada pela M.S. Imóveis" fetchpriority="high"></div>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-photo"><img src="assets/casa-sala.jpg" alt="Sala ampla e iluminada de um imóvel divulgado pela M.S. Imóveis em Lavras" fetchpriority="high"></div>
       <div class="hero-shade"></div>
       <div class="container hero-content">
-        <div class="hero-copy"><div class="hero-buttons"><a class="button button-red" href="#imoveis">Ver imóveis</a><a class="text-link light-link" href="#anunciar">Anunciar imóvel</a></div></div>
+        <div class="hero-copy">
+          <p class="eyebrow light">M.S. IMÓVEIS · LAVRAS E REGIÃO</p>
+          <h1 id="hero-title">Encontre seu lugar em <em>Lavras.</em></h1>
+          <p>Casas, apartamentos e terrenos para comprar ou alugar. Conte com atendimento próximo para encontrar o imóvel certo para você.</p>
+          <div class="hero-highlights" aria-label="Atendimento imobiliário em Lavras"><span>Compra e venda</span><span>Locação</span><span>Avaliação</span></div>
+          <div class="hero-buttons"><a class="button button-red" href="#imoveis">Ver imóveis</a><a class="text-link light-link" href="#anunciar">Anunciar imóvel</a></div>
+        </div>
+        <div class="hero-caption"><span class="caption-line"></span><span><strong>Atendimento local</strong><br>Rua Dona Inácia, 122 · Lavras, MG</span></div>
       </div>
     </section>
 
@@ -72,3 +79,4 @@
   <dialog class="property-dialog" id="property-dialog" aria-labelledby="dialog-title"><div class="dialog-inner"><button class="dialog-close" type="button" aria-label="Fechar detalhes">×</button><div class="dialog-gallery"><img id="dialog-image" src="" alt=""><button class="gallery-nav gallery-prev" type="button" aria-label="Foto anterior">‹</button><button class="gallery-nav gallery-next" type="button" aria-label="Próxima foto">›</button><span id="gallery-count" class="gallery-count"></span></div><div class="dialog-content"><p id="dialog-type" class="eyebrow"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><p class="dialog-disclaimer">Informações e disponibilidade sob consulta com a M.S. Imóveis.</p><div class="dialog-actions"><a id="dialog-whatsapp" class="button button-red" href="#" target="_blank" rel="noopener">Perguntar sobre este imóvel</a><a id="dialog-source" class="text-link" href="#" target="_blank" rel="noopener">Ver publicação original <span aria-hidden="true">↗</span></a></div></div></div></dialog>
 </body>
 </html>
+
